@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'ng-scaffolding';
+  title = 'Angular Scaffolding';
+  ngVersion = 'Angular 9.1.4';
+  bootstrapVersion = 'Bootstrap 4.4.1';
+  ngBootstrapVersion = 'ng-bootstrap 6.1.0';
+
+  images = [702, 631, 857].map((n) => `https://picsum.photos/id/${n}/1500/500`);
 }
