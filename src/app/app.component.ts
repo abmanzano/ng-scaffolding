@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +13,6 @@ export class AppComponent {
   ngBootstrapVersion = 'ng-bootstrap 6.1.0';
 
   images = [702, 631, 857].map((n) => `https://picsum.photos/id/${n}/1500/500`);
+
+  faCoffee = faCoffee;
 }

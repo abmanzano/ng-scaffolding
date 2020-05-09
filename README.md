@@ -4,7 +4,7 @@ Project intended as scaffolding for building responsive frontend applications.
 
 # Libraries and Tools
 
-## Angular
+### Angular
 
 [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4
 
@@ -21,7 +21,7 @@ Project intended as scaffolding for building responsive frontend applications.
 
 - To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Bootstrap
+### Bootstrap
 
 [Bootstrap](https://getbootstrap.com/) version 4.4.1
 
@@ -35,7 +35,7 @@ Project intended as scaffolding for building responsive frontend applications.
 
 - css is imported in angular.json
 
-## ng-bootstrap
+### ng-bootstrap
 
 [ng-bootstrap](https://ng-bootstrap.github.io/#/home) version 6.1.0
 
@@ -43,9 +43,21 @@ Project intended as scaffolding for building responsive frontend applications.
 
 - No dependencies on 3rd party JavaScript.
 
-## Angular localize polyfill
+### Angular localize polyfill
 
-- The first step to setting up localization when using the Angular CLI is to add the @angular/localize package to the project. 
+- The first step to setting up localization when using the Angular CLI is to add the @angular/localize package to the project.
+
+### Angular Fontawesome
+
+[Angular Fontawesome](https://github.com/FortAwesome/angular-fontawesome) version 0.6.1
+
+- The web's most popular icon set and toolkit.
+
+- [Two methodologies](https://github.com/FortAwesome/angular-fontawesome/blob/master/docs/usage.md) for using angular-fontawesome:
+
+1. [Explicit reference](https://github.com/FortAwesome/angular-fontawesome/blob/master/docs/usage/explicit-reference.md): explicitly importing the typescript constants from the npm packages, and setting them directly in the component. (e.g. in this project faCoffee)
+
+2. [Icon library](https://github.com/FortAwesome/angular-fontawesome/blob/master/docs/usage/icon-library.md): manage the icons separate from your components.
 
 # Licence
 
